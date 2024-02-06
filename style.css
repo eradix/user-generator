@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.card{
+    margin: 0 auto;
+    border: 2px ridge #222;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    opacity: 80%;
+}
+
+
+.male-btn{
+    background-color: slategray;
+
+}
+
+.female-btn{
+    background-color: fuchsia;
+}
+
+.female{
+    border-radius: 0 20px;
+}
+.male{
+    border-radius: 50%;
+}
+
+[cloak]{
+    display: none;
+}
